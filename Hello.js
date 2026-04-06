@@ -1,1 +1,3 @@
-This is file 2.
+function clickme(){
+    alert("Button clicked");
+}
