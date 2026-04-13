@@ -1,25 +1,52 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Show / Hide H1 Example</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 24px;
+      }
+      .highlighted {
+        background: #fff8b0;
+        border: 2px solid #f1c40f;
+        padding: 12px;
+      }
+      button {
+        margin-right: 8px;
+        margin-bottom: 16px;
+        padding: 8px 14px;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+    </style>
+  </head>
   <body>
-    <h1>
+    <button id="toggleH1Btn">Hide H1</button>
+    <button id="highlightH1Btn">Highlight H1</button>
+
+    <h1 id="mainHeading">
       H-Hyper : Being Super Interactive (HTML is very interactive as it can executed in any browser, and can get the DATA from anywhere in the web)
       <ul>Some features of HTML which makes it hyper:
-        <li> Anchor tag "a"</li>
+        <li>Anchor tag "a"</li>
         <li>Forms</li>
-        </ul>
+      </ul>
       T-text:
-      in HTML Text means any visible component ina web page. These reside in the body of page.
-      Text can be plain text, images, video,links, tables, etc.
-      M- markup: in HTML the tags and styling are major part that describes the mata data of the page with the help of tags and css
-      L-Language: all computer languages have common features of have comon features of having:
+      in HTML Text means any visible component in a web page. These reside in the body of page.
+      Text can be plain text, images, video, links, tables, etc.
+      M-markup: in HTML the tags and styling are major part that describes the metadata of the page with the help of tags and css
+      L-Language: all computer languages have common features of having:
       <ul>
-        <li>Variables:placeholder to actual value</li>
+        <li>Variables: placeholder to actual value</li>
         <li>Statements: Lines of codes, like Statements</li>
-        <li>Control Structure: if else if...else,switch case</li>
-        <li>Loops: Repeatative structures</li>
+        <li>Control Structure: if else if...else, switch case</li>
+        <li>Loops: Repetitive structures</li>
         <li>Function: group of statements solving a particular problem</li>
       </ul>
-      In HTML we have Javascript handling hte language part.
+      In HTML we have JavaScript handling the language part.
     </h1>
+
     <h2>
       CSS:
       Cascading: following HTML file
@@ -30,8 +57,9 @@
       JS: JavaScript is the language behind HTML.
     </h2>
     <h2>
-      TS: Type script is the new language which is strongly typed TS gets compiled
-      into javascript and the executed in HTML.
+      TS: Type script is the new language which is strongly typed TS gets compiled into javascript and then executed in HTML.
     </h2>
+
+    <script src="Hello.js"></script>
   </body>
 </html>
